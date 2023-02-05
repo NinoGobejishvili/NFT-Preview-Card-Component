@@ -1,0 +1,156 @@
+body{
+    background-color: #0C172C;
+    height: 596px;
+    width: 350px;
+    border-radius: 15px;
+    margin: auto;
+   }
+
+   .card {
+    height: 596px;
+    width: 350px;
+    background-color: #15263F;
+    border-radius: 15px;
+    margin-top: 59px;
+    margin-bottom: 59px;
+    }
+
+.equilibrium {
+    height: 302px;
+    width: 302px;
+    border-radius: 8px;
+    margin: 24px;
+    }
+     
+.container:hover {
+    cursor: pointer;
+    }
+
+.container {
+    position: relative;
+      }
+      
+     .eye {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+        height: 39px;
+        width: 45px;
+        margin-left: 155px;
+        margin-top: 155px;
+      }
+      
+.container:hover .eye {
+        display: block;
+              
+      }
+
+    .container:hover .overlay {
+      display: block;
+}
+
+.overlay {
+    display: none;
+    background-color:  #00FFF8;
+    position: absolute;
+    height: 302px;
+    width: 302px;
+    border-radius: 8px;
+    margin: 24px;
+    opacity: 0.5;
+}
+
+h1{
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    font-size: 22px;
+    margin-left: 24px;
+    margin-right: 24px;
+    line-height: 27.72px;
+    margin-bottom: 16px;
+    
+   }
+h1:hover{
+    color: #00FFF8;
+    cursor: pointer;
+}
+p{
+    height: 52px;
+    width: 302px;
+    color: #8BACD9;
+    font-family: 'Outfit', sans-serif;
+    margin-left: 24px;
+    margin-right: 24px;
+    line-height: 26px;
+    font-size: 18px;
+}
+
+.iconetherium {
+    width: 10px;
+    height: 15px;
+    margin-right: 4px;
+}
+
+.clock{
+margin-right: 4px;
+width: 16px;
+height: 16px;
+}
+
+.eth0041 {
+ color: #00FFF8;
+ font-family: outfit;
+ font-size: 16px;
+ line-height: 20.16px;
+ }
+
+.timeleft { 
+ color: #8BACD9;
+ font-family: outfit;
+ }
+    
+.avatar {
+    height: 33px;
+    width: 33px;
+    margin-right: 16px;
+    margin-left: 24;
+    border: 1px solid white;
+    border-radius: 50%;
+    }
+
+.etherium{
+    display: flex;
+    justify-content: space-between;
+    margin: 24px;
+    font-size: 16px;
+}
+       
+
+.Jules{   
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 22px;
+    margin-left: 24px;
+    margin-bottom: 39px;
+    font-family: 'Outfit', sans-serif;
+    color: #8BACD9;
+ }
+
+.line{
+        height: 1px;
+        width: 302px;
+        margin-left: 24px;
+        background-color: #2E405A;
+        margin-top: 24px;
+    }
+
+.name {
+        color: white;
+        margin-left: 5px;
+    }
+.name:hover{
+        color: #00FFF8;
+        cursor: pointer;
+}
